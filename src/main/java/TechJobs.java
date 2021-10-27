@@ -126,7 +126,7 @@ public class TechJobs {
         for (HashMap<String, String> job: someJobs){
             String info = "\n*****\n";
             for (Map.Entry<String, String> jobColumn : job.entrySet()){
-                info += (jobColumn.getKey() + ":" + jobColumn.getValue() + "\n");
+                info += (jobColumn.getKey() + ": " + jobColumn.getValue() + "\n");
             }
             info += "*****";
             System.out.println(info);
